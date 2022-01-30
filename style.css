@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 75%; margin: 50px auto;
+    border: 1px solid gray;
+display: grid;
+grid-template-rows: 60px 100px 200px 60px;
+grid-template-columns: repeat(3, 1fr) 1fr;
+grid-gap: 20px;
+}
+.div1{
+    background-color: hotpink;
+    grid-column: 1/-1;
+}
+.div2{
+background-color: indigo;
+grid-row: 2/4;
+
+}
+.div3{
+background-color: red;
+grid-column: 4/5;
+grid-row: 2/4;
+
+}
+.div4{
+background-color: blue;
+grid-column: 2/4;
+grid-row: 2/4;
+
+}
+.div5{
+background-color: green;
+grid-column: 1/-1;
+grid-row: 4/5;
+}
+p{
+   text-align: center;
+  color: aliceblue;
+}
+.class1{
+    
+    font-size: 50px;
+}
+.class2{
+    font-size: 50px;
+    margin: 100px;
+}
+.class3{
+    font-size: 50px;
+    margin-top: 120px;
+}
+.class4{
+    margin: 120px;
+    font-size: 50px;
+}
+.class5{
+    font-size: 50px;
+}
+.footer{
+    color: white
+   
+}
+.footer1{
+    padding: 10px;
+    background-color: black;
+    margin-top:10px;
+    margin-bottom: auto;
+    margin-right:35%;
+    margin-left: 35%;
+    border-radius: 10px;
+
+}
